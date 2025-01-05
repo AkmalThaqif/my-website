@@ -1,0 +1,18 @@
+body {
+    background: url(https://mir-s3-cdn-cf.behance.net/projects/404/d0bf76110130697.Y3JvcCw1NzUzLDQ1MDAsMTEyNSww.png);
+    background-size: contain;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+h1 {
+    color: darkgoldenrod;
+    margin-top: 20px;
+    color: gold; 
+    background-color: slateblue; 
+    font-family: 'Courier New', monospace;
+}
+
+    
+       
