@@ -1,0 +1,147 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+
+        .image-gallery a {
+            text-decoration: none;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border: 5px solid darkgoldenrod;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .back-to-top {
+            margin: 20px auto;
+            display: inline-block;
+        }
+
+        .back-to-top img {
+            width: 100px;
+            height: 70px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>MY GALLERY</h1>
+        <hr>
+        <div class="image-gallery">
+            <a href="picture/daboys.jpg">
+                <img src="picture/daboys.jpg" alt="A picture of me and my highschool friends">
+            </a>
+            <a href="picture/Jamuan Raaya.jpg">
+                <img src="picture/Jamuan Raya (Semua).jpg" alt="A picture of me during raya celebration with my classmate">
+            </a>
+            <a href="picture/Raya Enigmatic.jpg">
+                <img src="picture/Raya Enigmatic.jpg" alt="A picture of me during raya celebration with my ex schoolmate">
+            </a>
+            <a href="picture/Raya Rumah gf Weewee.jpg">
+                <img src="picture/Raya Rumah gf Weewee.jpg" alt="A picture of me during raya celebration with my ex schoolmate">
+            </a>
+            <a href="picture/classmate 3b.jpg">
+                <img src="picture/classmate 3b.jpg" alt="A picture of my diploma's classmates">
+            </a>
+            <a href="picture/classmate 3b freestyle.jpg">
+                <img src="picture/classmate 3b freestyle.jpg" alt="A picture of my diploma's classmates">
+            </a>
+            <a href="picture/BBQ PD.jpg">
+                <img src="picture/BBQ PD.jpg" alt="A picture of my diploma's classmates">
+            </a>
+            <a href="picture/Mamakbois.jpg">
+                <img src="picture/Mamakbois.jpg" alt="A picture of me with my friends at home">
+            </a>
+            <a href="picture/Ori 7.jpg">
+                <img src="picture/Ori 7.jpg" alt="A picture of the original 7">
+            </a>
+            <a href="picture/Trip Kasta Kedua.jpg">
+                <img src="picture/Trip Kasta Kedua.jpg" alt="A picture of me with my friends during Inkspire Future">
+            </a>
+            <a href="picture/Team Booth Muzium.jpg">
+                <img src="picture/Team Booth Muzium.jpg" alt="A picture of me with my friends during Inkspire Future">
+            </a>
+            <a href="picture/Team Hypertrophy.jpg">
+                <img src="picture/Team Hypertrophy.jpg" alt="A picture of me with my friends at gym">
+            </a>
+            <a href="picture/With Sir Buck.jpg">
+                <img src="picture/With Sir Buck.jpg" alt="A picture of me with my friends during Inkspire Future">
+            </a>
+            <a href="picture/with ibu tercinta.jpg">
+                <img src="picture/with ibu tercinta.jpg" alt="A picture of me with my mother">
+            </a>
+            <a href="picture/YB Akmal.jpg">
+                <img src="picture/YB Akmal.jpg" alt="A picture of me during Inkspire Future">
+
+            <a href="picture/Gambar Kawin Angah.jpg">
+                <img src="picture/Gambar Kawin Angah.jpg" alt="A picture of me with my family during my brother's wedding">
+
+            <a href="picture/gmbar kawin1.jpg">
+                <img src="picture/gmbar kawin1.jpg" alt="A picture of me with my family during my brother's wedding">
+
+            <a href="picture/with the bros.jpg">
+                <img src="picture/with the bros.jpg" alt="A picture of me with the bros">
+            </a>
+        </div>
+
+    <h1>MUSIC</h1>
+
+    <div style="text-align: center;" class="MUSIC" >
+    
+    <p style="font-size: 18px; color:darkgoldenrod; text-align: center; margin: 0 50px;"><b>Est-ce que tu m'aimes</b></p>
+    <br>
+    <audio controls autoplay>
+        <source src="my_website/audio/download.mp3"type="audio/ogg">
+        <source src="my_website/audio/download.mp3" type="audio/mpeg">
+        Your browser does not support the audio element
+    </audio>
+
+    <h1>VIDEOS</h1>
+    <p style="font-size: 18px; color:darkgoldenrod; text-align: center; margin: 0 50px;"><b>Inkspire Future</b></p>
+    
+    <video controls height="500" width="700">
+        <source src="video/inkspire future.mp4" type="video/mp4">
+        <source src="video/inkspire future.mp4" type="video/ogg">
+        Your browser does not support the audio element
+    </video>
+    <br>
+    <p style="font-size: 18px; color:darkgoldenrod; text-align: center; margin: 0 50px;"><b>Boboiboy Gentar</b></p>
+
+    <iframe width="700" height="500" src="https://www.youtube.com/embed/svViDUvB38o?si=MwqQECJ4aDKBhXYJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <hr>
+    <div class="back-to-top">
+        <a href="#top">
+            <img src="image_png/back_to_top-removebg-preview.png" alt="Back to top">
+        </a>
+    </div>
+</body>
+</html>
